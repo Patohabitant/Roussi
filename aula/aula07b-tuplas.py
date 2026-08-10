@@ -10,4 +10,4 @@ print(t)
 print(t[1:3])
 
 t = ('F',) + t[1:]
-print(t)
+print("t")
