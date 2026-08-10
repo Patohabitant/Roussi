@@ -17,3 +17,17 @@ print(t)
 a = 5
 b = 10
 print(f"a: {a}, b: {b}")
+
+temp = a #temp = 5
+a = b # a = 10
+b = temp
+print(f"a: {a}, b: {b}")
+
+a, b = b, a
+print(f"a: {a}, b: {b}")
+
+end_email = "fulano@gmail.com"
+nome_usuario, dominio = end_email.split("@")
+
+print(nome_usuario)
+print(dominio)
