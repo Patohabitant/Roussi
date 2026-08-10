@@ -10,4 +10,10 @@ print(t)
 print(t[1:3])
 
 t = ('F',) + t[1:]
-print("t")
+print(t)
+
+# ATRIBUIÇÃO COM TUPLAS
+
+a = 5
+b = 10
+print(f"a: {a}, b: {b}")
